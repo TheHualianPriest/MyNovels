@@ -1,0 +1,75 @@
+
+.h{
+    font-size: 20px;
+}
+.kvadrat{
+    width: 54px;
+    height: 54px;
+    color:#FCE5DD;
+    border: 5px solid #FCE5DD;
+    background-color:#DE3937; 
+}
+.tap{
+    width: 297.94px;
+    height: 54px;
+    color:#FCE5DD;
+    border: 5px solid #FCE5DD;
+    background-color:#DE3937; 
+}
+.header{
+    background-color: #EB8376;
+    height: 63;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    text-align: center;
+    text-justify: center;
+}
+body{
+    display: flex;
+    justify-content: center;
+    background-image: url(images/луна.jpg);
+    margin: 0;
+   }
+.block{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px 15px 10px 15px;
+    background: #FCE5DD;
+    border: 5px solid #8F2A18;
+    width: 1172px;
+    height: 412px;
+}
+img {
+    margin:10px 10px;
+    border: 5px solid #8F2A18;
+    display: flex;
+   
+}
+.content{
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    align-items: center;
+    color: #8F2A18 ;
+
+}
+.text{
+    color: #FFF3DB;
+    background-image: url(images/Фон.jpg);
+    border: 5px solid #8F2A18;
+    box-sizing: border-box;
+}
+.mainblock{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: space-around;
+   margin: 5px 95px 5px 95px  ;
+   width: 95%;
+   height: 95%;
+   background-color: #EB8376 ;
+   border: 5px solid #8F2A18;
+}
