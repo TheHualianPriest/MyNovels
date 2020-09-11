@@ -1,0 +1,52 @@
+.kvadrat img{
+    width: 54px;
+    height: 54px;
+    color:#FCE5DD;
+    border: 5px solid #FCE5DD;
+    background-color:#DE3937; 
+    margin: 5px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;}
+    
+.tap{
+    width: 297.94px;
+    height: 54px;
+    color:#FCE5DD;
+    border: 5px solid #FCE5DD;
+    background-color:#DE3937; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px 30px;
+}
+
+.header{
+    background-color: #EB8376;
+    height: 63;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    position: absolute;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    background-image: url(../images/луна.jpg);
+    margin: 0;
+   }
+
+.mainblock{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin: 68px 95px  ;
+    width: 95%;
+    height: 95%;
+    background-color: #EB8376 ;
+    border: 5px solid #8F2A18;
+    padding: 10px 15px;
+ }

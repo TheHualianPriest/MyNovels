@@ -1,23 +1,30 @@
 
 .h{
     font-size: 20px;
+    font-weight: bold;
 }
-.kvadrat{
+.kvadrat img{
     width: 54px;
     height: 54px;
     color:#FCE5DD;
     border: 5px solid #FCE5DD;
     background-color:#DE3937; 
-}
+    margin: 5px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;}
 .tap{
     width: 297.94px;
     height: 54px;
     color:#FCE5DD;
     border: 5px solid #FCE5DD;
     background-color:#DE3937; 
-    text-align: center;
-    text-justify: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px 30px;
 }
+
 .header{
     background-color: #EB8376;
     height: 63;
@@ -30,7 +37,7 @@
 body{
     display: flex;
     justify-content: center;
-    background-image: url(images/луна.jpg);
+    background-image: url(../images/луна.jpg);
     margin: 0;
    }
 .block{
@@ -46,7 +53,7 @@ body{
 }
 img {
     margin:10px 10px;
-    border: 5px solid #8F2A18;
+    border: 3px solid #8F2A18;
     display: flex;
    
 }
@@ -54,22 +61,23 @@ img {
     display: flex;
     justify-content: flex-end;
     flex-direction: column;
-    align-items: center;
     color: #8F2A18 ;
+    width: 100%;
 
 }
 .text{
     color: #FFF3DB;
-    background-image: url(images/Фон.jpg);
+    background-image: url(../images/Фон.jpg);
     border: 5px solid #8F2A18;
     box-sizing: border-box;
+    margin: 25px 5px
 }
 .mainblock{
    display: flex;
    flex-direction: column;
    align-items: center;
    justify-content: space-around;
-   margin: 5px 95px 5px 95px  ;
+   margin: 68px 95px  ;
    width: 95%;
    height: 95%;
    background-color: #EB8376 ;
